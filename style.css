@@ -1,0 +1,1369 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    /* overflow-x: hidden; */
+}
+body{
+    overflow-x: hidden;
+}
+br{
+    display: none;
+}
+.container{
+    max-width: 1440px;
+    margin: auto;
+    position: relative;
+
+}
+#navbar{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+}
+#leftnav{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+#rightnav{
+    margin-right: 30px;
+}
+.pointer:hover {
+    cursor: pointer;
+}
+#host{
+    font-size: 30px;
+    color: #fff;
+}
+#herosection{
+    display: flex;
+    height: 700px;
+}
+#lefthero{
+    background-image: url(1st\ section/leftsection.png);
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: last baseline;
+}
+#lefthero img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#righthero{
+    background-image: url(1st\ section/rightsection.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    width: 50%;
+    height: 100%;
+}
+#righthero img{
+    width: 100%;
+    height: 100%;
+}
+
+.contaxt {
+    max-width: 513px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: last baseline;
+    gap: 30px;
+}
+#lefth1{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: auto;
+    letter-spacing: 0px;
+    color: #fff;
+}
+#leftp{
+    font-size: 18px;
+
+    color: #fff;
+}
+#leftbtn{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+.leftbtn1{
+    background-color: #fff;
+    color: #000;
+    padding: 10px 60px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+}
+.leftbtn2{
+    background-color: #5793cf;
+    color: #fff;
+    padding: 10px 60px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#section2{
+    width: 75%;
+}
+.section2p{
+    display: flex;
+    justify-content: center;
+}
+.section2p p {
+    width: 50%;
+}
+#section2img{
+    width: 25%;
+    height: 25%;
+    object-fit: cover;
+}
+#section2card{
+    align-items: center; 
+    background: #fff;
+    color: #000000;
+    border: 1px solid #0946ab;
+    border-radius: 0px;
+}
+#section2card:hover{
+    background: #0946ab;
+    color: #fff;
+}
+.section2btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section2btn button{
+    background-color: #0946ab;
+    color: #fff;
+    padding: 10px 60px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+}
+.section2btn button:hover{
+    cursor: pointer;
+}
+.section2btn img{
+    left:      -50%;
+    position: absolute;
+}
+#gap{
+    height: 50px;
+}
+.section3{
+    display: flex;
+    height: 500px;
+}
+.leftsection3{
+     width: 50%;
+    height: 100%;
+}
+.leftsection3 img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.rightsection3{
+    background-image: url(3rd\ section/AboutUs.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 100%;
+}
+.contaxtSection3 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: first baseline;
+    padding: 50px;
+    gap: 10px;
+}
+#righth1{
+color: #fff;
+font-size: 40px;
+font-weight: 700;
+}
+#rightp{
+    color: #fff;
+    max-width: 583px;
+    font-size: 24px;
+}
+.rightbtn{
+    background-color: #fff;
+    color: #000;
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+}
+.section4{
+    height: 550px;
+    max-width: 1444px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#section4{
+    display: flex;
+    height: 500px;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+#section4img{
+    width: 35%;
+    height: 25%;
+    object-fit: cover;
+}
+#section4card{
+    min-height: 350px;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center; 
+    background: #fff;
+    color: #000000;
+    border-radius: 0px;
+}
+#section4card:hover{
+    box-shadow: #218ada32 0px 0px 30px;
+}
+#section4card h1{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: auto;
+    letter-spacing: 10px;
+    margin-bottom: 15px;
+}
+#section4card p{
+    font-size: 15px;
+}
+.section5{
+    width: 100%;
+    height: 848px;
+    background-image: url(5th\ section/section5.png);
+    background-size: cover;
+  background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.extra{
+    width: 50%;
+    height: 100%;
+}
+.contaxtsection5{
+    width: 50%;
+    color: #fff;
+}
+.contaxtsection5 #fifty{
+    font-size:60px;
+    font-weight: 700;
+}.contaxtsection5 #fifty span{
+    font-size: 86px;
+    font-weight: 700;
+}
+.contaxtsection5 #download{
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    word-wrap: none;
+}
+.contaxtsection5 P{
+    font-size: 25PX;
+}
+.section5btn{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+.section5btns{
+    height: 70px;
+    width: 230px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    /* left: 0; */
+}
+.section5btns img{
+    height: 100%;
+    width: auto;
+    object-fit: fill;
+}
+#section6cardheading{
+    color: #1f1f1f;
+    font-size: 80px;
+    font-weight: 700;
+}
+#section6cardsubheading{
+    color: #5793cf;
+    font-size: 24px;
+    font-weight: 700;
+}
+#section6cardp{
+    color: #1f1f1f;
+}
+#section6shadow{
+    box-shadow: #1f1f1f5b 0px 1px 10px;
+}
+#section6card:hover{
+    background: #0946ab;
+}
+#section6card:hover #section6shadow h1,
+#section6card:hover #section6shadow h3,
+#section6card:hover #section6shadow p
+{
+color: #fff;
+}
+.section6a{
+    display: flex;
+    justify-content: center;
+}
+#section6{
+    width: 75%;
+}
+.section6btn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#section6btn{
+    background-color: #1f1f1f;
+    color: #fff;
+    padding: 10px 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+}
+  .accordion, .panel {
+  width: 75%;
+  margin: auto;
+  align-self: center;
+}
+.accordion-container{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.accordion{
+    color: #0b0b0c;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+    padding: 10px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #0000006f;
+}
+.panel{
+    display: none;
+    padding: 10px;
+    font-size: 18px;
+    color: #69696a;
+    border-radius: 5px;
+}
+.section8{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 500px; */
+}
+#section8{
+    width: 75%;
+    text-align: center;
+    /* margin: auto; */
+}
+#section8h1{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: auto;
+    letter-spacing: 0px;
+    color: #090909;
+    margin-bottom: 50px
+}
+#section8b{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: nowrap;
+}
+#leftsection8{
+    background: #f4f5f7;
+    min-height: 300px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+#rightsection8{
+    background: #f4f5f7;
+    min-height: 300px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.upperdiv{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
+}
+.section8img{
+    height: 125px;
+}
+.section9{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#section9{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 75%;
+}
+#section9 h2{
+    font-size: 50px;
+    font-weight: 700;
+    color: #171717;
+}
+#section9 p{
+    color: #69696a;
+    font-size: 20px;
+    text-align: center;
+}
+.section10{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    height: 150px;
+    background: #020e2d;
+}
+#section10{
+    width: 60%;
+    height: 100px;
+    background: #fff;
+    border-radius: 5px;
+}
+#section10row1{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.map, .telephone, .email{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.map p, .telephone p, .email p{
+    color: #020e2d;
+    font-size: 20px;
+    margin: 0;
+}
+.section11{
+    height: 200px;
+    background: #020e2d;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+.section11a{
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 20px;
+}
+.section11a:hover{
+    cursor: pointer;
+}
+.section11b{
+    height: 100%;
+}
+
+.section11c{
+    height: 100%;
+}
+
+.section11d{
+    height: 100%;
+    align-content: center;
+}
+.section11e{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    gap: 20px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 36px;
+}
+
+li::before {
+  content: "o"; /* Insert content that looks like bullets */
+  padding-right: 8px;
+  color: wheat; /* Or a color you prefer */
+}
+#socialmedia{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+#input input{
+    /* color: #999898; */
+    width: 55%;
+    height: 40px;
+    border-radius: 50px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding-left: 20px;
+    font-size: 18px;
+    color: #020e2d;
+    border: none;
+}
+#input button{
+    width: 40%;
+    height: 40px;
+    border-radius: 50px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background-color: #5793cf;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+}
+.section12{
+    height: 100px;
+    background: #020e2d;
+}
+.section12 div{
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+.section12 div p{
+    color: #0b0b0c;
+    margin-bottom: 0px;
+    text-align: center;
+}
+button:active{
+    transform: scale(0.95);
+}
+button:hover{
+    cursor: pointer;
+    box-shadow: #218ada32 0px 0px 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1024px) and (min-width: 679px)  {
+    
+body{
+    overflow-x: hidden;
+}
+.container{
+    max-width: 1024px;
+}
+#navbar{
+    width: 100%;
+}
+#herosection{
+    height: 500px;
+}
+.contaxt {
+    max-width: 430px;
+    gap: 15px;
+}
+#lefth1{
+    font-size: 40px;
+}
+#leftbtn{
+    gap: 10px;
+}
+.leftbtn1{
+    padding: 10px 40px;
+}
+.leftbtn2{
+    padding: 10px 40px;
+}
+.no-wrap-text {
+    white-space: nowrap;
+  }
+  .section2p p {
+    width: 70%;
+    text-wrap: auto;
+  }
+  
+.section3{
+    height: 400px;
+}
+.contaxtSection3 {
+    gap: 10px;
+}
+#righth1{
+font-size: 40px;
+}
+#rightp{
+    font-size: 18px;
+}
+.rightbtn{
+    padding: 10px 20px;
+}
+
+#section4card p{
+    font-size: 15px;
+
+}
+.section5{
+    height: 500px;
+}
+.contaxtsection5 #fifty{
+    font-size:40px;
+}
+.contaxtsection5 #fifty span{
+    font-size: 50px;
+}
+.contaxtsection5 #download{
+    font-size: 36px;
+}
+.contaxtsection5 P{
+    font-size: 18PX;
+}
+.section5btn{
+    gap: 10px;
+}
+.section5btns{
+    height: 40px;
+    width: auto;
+}
+#section6cardheading{
+    font-size: 50px;
+}
+#section6shadow p br{
+    display: none;
+}
+
+#section10{
+    width: 80%;
+}
+.map p, .telephone p, .email p{
+    font-size: 20px;
+}
+
+#input input{
+    font-size: 15px;
+}
+#input button{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px ) and (min-width: 426px)  {
+    html{
+        width: 100%;
+    }
+    
+body{
+    overflow-x: hidden;
+}
+.container{
+    max-width: 768px;
+}
+#navbar{
+    width: 100%;
+}
+#herosection{
+    height: 500px;
+}
+.contaxt {
+    max-width: 300px;
+    justify-content: center;
+    align-items: center;    
+    gap: 0px;
+}
+#lefth1{
+    font-size: 35px;
+}
+.contaxt p{
+    font-size: 15px;
+}
+.contaxt p br{
+    display: none;
+}
+#leftbtn{
+    gap: 10px;
+}
+.leftbtn1{
+    padding: 10px 20px;
+}
+.leftbtn2{
+    padding: 10px 20px;
+}
+.no-wrap-text {
+    white-space: nowrap;
+}
+.section2p p {
+    width: 100%;
+}
+
+#section2{
+    width: 100%;
+}
+
+.section3{
+    height: 400px;
+}
+.contaxtSection3 {
+    gap: 0px;
+}
+#righth1{
+font-size: 40px;
+}
+#rightp{
+    font-size: 15px;
+}
+.rightbtn{
+    padding: 10px 20px;
+}
+#section4{
+    width: 100%;
+    margin: 0px !important;
+}
+#section4 div div button{
+    padding: 10px 20px;
+    width: 100%;
+}
+.section5{
+    height: 400px;
+}
+.contaxtsection5 #fifty{
+    font-size:30px;
+}
+.contaxtsection5 #fifty span{
+    font-size: 40px;
+}
+.contaxtsection5 #download{
+    font-size: 25px;
+}
+.contaxtsection5 P{
+    font-size: 14PX;
+}
+.section5btns{
+    height: 40px;
+}
+
+#section6cardheading{
+    font-size: 40px;
+}
+#section6cardsubheading{
+    font-size: 20px;
+}
+#leftsection8{
+    padding: 20px;
+    gap: 10px;
+}
+#rightsection8{
+    padding: 20px;
+    gap: 10px;
+}
+#section9 h2{
+    text-align: center;
+}
+
+#section10{
+    width: 80%;
+}
+.map, .telephone, .email{
+    gap: 5px;
+}
+.map p, .telephone p, .email p{
+    font-size: 15px;
+}
+
+.section11{
+    flex-wrap: wrap;
+    padding: 0 10px;
+}
+.section11a{
+    gap: 10px;
+}
+.section11a:hover{
+    cursor: pointer;
+}
+.section11b{
+    height: 100%;
+}
+
+.section11c{
+    height: 100%;
+}
+
+#input input{
+    font-size: 10px;
+}
+#input button{
+    font-size: 10px;
+}
+.section11 div h5{
+    font-size: 18px;
+}
+
+.section11 div ul li{
+    font-size: 15px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 426px) and (min-width: 326px) {
+    html{
+        width: 100vw;
+    }
+body{
+    overflow-x: hidden;
+}
+.container{
+    max-width: 425px;
+}
+#navbar{
+    width: 100%;
+}
+#herosection{
+    flex-direction: column;
+}
+#lefthero {
+    width: 100%;
+    height: 700px;
+}
+.contaxt {
+    width: 80%;
+    margin-top: 100px;
+    gap: 0px;
+}
+
+#lefth1{
+    font-size: 30px;
+}
+.contaxt p{
+    font-size: 12px;
+}
+.contaxt p br{
+    display: none;
+}
+#leftbtn{
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.leftbtn1{
+    padding: 10px 20px;
+}
+.leftbtn2{
+    padding: 10px 20px;
+}
+#righthero{
+    width: 100%;
+}
+.no-wrap-text {
+    white-space: nowrap;
+}
+.section2p p {
+    width: 100%;
+    text-wrap: wrap;    
+}
+
+.section2p p br{
+    display: none;
+}
+#section2{
+    width: 100%;
+}
+
+.section3{
+    flex-direction: column;
+    height: 750px;
+}
+.leftsection3{
+    width: 100%;
+}
+.rightsection3{
+    width: 100%;
+}
+.contaxtSection3 {
+    gap: 0px;
+}
+#righth1{
+font-size: 40px;
+}
+#rightp{
+    font-size: 15px;
+}
+.rightbtn{
+    padding: 10px 20px;
+}
+.section4{
+    height: 1400px;
+    display: block;
+}
+.section5{
+    height: 300px;
+}
+.contaxtsection5 #fifty{
+    font-size:25px;
+}
+.contaxtsection5 #fifty span{
+    font-size: 30px;
+}
+.contaxtsection5 #download{
+    font-size: 15px;
+}
+
+.contaxtsection5 P br{
+    display: none;
+}
+.contaxtsection5 P{
+    text-wrap: wrap;
+    max-width: 100%;
+    font-size: 10PX;
+}
+.section5btn{
+    height: 40px;
+    display: block;
+    gap: 5px;
+}
+.section5btn button{
+    height: 30px;
+    width: auto;
+}
+
+#section6cardheading{
+    font-size: 40px;
+}
+#section6cardsubheading{
+    font-size: 20px;
+}
+
+#leftsection8{
+    padding: 20px;
+    gap: 10px;
+}
+#rightsection8{
+    padding: 20px;
+    gap: 10px;
+}
+#section8b{
+    width: 75%;
+    flex-direction: column;
+    gap: 20px;
+}
+#section8h1{
+    font-size: 30px;
+}
+.section10{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    height: 200px;
+    background: #020e2d;
+}
+#section10{
+    width: 60%;
+    height: 150px;
+    background: #fff;
+    border-radius: 5px;
+}
+#section10row1{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.map p, .telephone p, .email p{
+    color: #020e2d;
+    font-size: 17px;
+    margin: 0;
+}
+
+#section9 h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+#section10{
+    width: 80%;
+}
+.map, .telephone, .email{
+    gap: 5px;
+}
+.map p, .telephone p, .email p{
+    font-size: 15px;
+}
+
+
+
+.section11{
+    height: 700px;
+    display: block;
+    padding: 0 20px;
+}
+.section11a{
+    height: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 20px;
+}
+.section11a:hover{
+    cursor: pointer;
+}
+.section11b{
+    height: 200px;
+    width: 100%;
+}
+
+.section11c{
+    height: 160px;
+    width: 100%;
+}
+
+.section11d{
+    height: 100px;
+    width:100%;}
+.section11e{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    gap: 20px;
+}
+}
+
+
+
+
+
+@media (max-width: 376px) and (min-width: 321px) {
+
+    html{
+        width: 100vw;
+    }
+body{
+    overflow-x: hidden;
+}
+.container{
+    max-width: 425px;
+}
+#navbar{
+    width: 100%;
+}
+#herosection{
+    flex-direction: column;
+}
+#lefthero {
+    width: 100%;
+    height: 700px;
+}
+.contaxt {
+    width: 80%;
+    margin-top: 100px;
+    gap: 0px;
+}
+
+#lefth1{
+    font-size: 30px;
+}
+.contaxt p{
+    font-size: 12px;
+}
+.contaxt p br{
+    display: none;
+}
+#leftbtn{
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.leftbtn1{
+    padding: 10px 20px;
+}
+.leftbtn2{
+    padding: 10px 20px;
+}
+#righthero{
+    width: 100%;
+}
+.no-wrap-text {
+    white-space: nowrap;
+}
+.section2p p {
+    width: 100%;
+    text-wrap: wrap;    
+}
+
+.section2p p br{
+    display: none;
+}
+#section2{
+    width: 100%;
+}
+
+.section3{
+    flex-direction: column;
+    height: 750px;
+}
+.leftsection3{
+    width: 100%;
+}
+.rightsection3{
+    width: 100%;
+}
+.contaxtSection3 {
+    gap: 0px;
+}
+#righth1{
+font-size: 40px;
+}
+#rightp{
+    font-size: 15px;
+}
+.rightbtn{
+    padding: 10px 20px;
+}
+.section4{
+    height: 1400px;
+    display: block;
+}
+.section5{
+    height: 400px;
+    background-position: center;
+}
+.contaxtsection5 #fifty{
+    font-size:20px;
+}
+.contaxtsection5 #fifty span{
+    font-size: 30px;
+}
+.contaxtsection5 #download{
+    font-size: 15px;
+}
+
+.contaxtsection5 P br{
+    display: none;
+}
+.contaxtsection5 P{
+    text-wrap: wrap;
+    max-width: 100%;
+    font-size: 10PX;
+}
+.section5btn{
+    height: 40px;
+    display: block;
+    gap: 5px;
+}
+.section5btn button{
+    height: 30px;
+    width: auto;
+}
+
+#section6cardheading{
+    font-size: 40px;
+}
+#section6cardsubheading{
+    font-size: 20px;
+}
+
+#leftsection8{
+    padding: 20px;
+    gap: 10px;
+}
+#rightsection8{
+    padding: 20px;
+    gap: 10px;
+}
+#section8b{
+    width: 75%;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section10{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    height: 200px;
+    background: #020e2d;
+}
+#section10{
+    width: 60%;
+    height: 150px;
+    background: #fff;
+    border-radius: 5px;
+}
+#section10row1{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.map p, .telephone p, .email p{
+    color: #020e2d;
+    font-size: 17px;
+    margin: 0;
+}
+
+#section9 h2{
+    text-align: center;
+}
+
+#section10{
+    width: 80%;
+}
+.map, .telephone, .email{
+    gap: 5px;
+}
+.map p, .telephone p, .email p{
+    font-size: 15px;
+}
+
+
+
+.section11{
+    height: 700px;
+    display: block;
+    padding: 0 20px;
+}
+.section11a{
+    height: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 20px;
+}
+.section11a:hover{
+    cursor: pointer;
+}
+.section11b{
+    height: 200px;
+    width: 100%;
+}
+
+.section11c{
+    height: 160px;
+    width: 100%;
+}
+
+.section11d{
+    height: 100px;
+    width:100%;}
+.section11e{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    gap: 20px;
+}
+
+
+}
