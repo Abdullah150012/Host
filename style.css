@@ -134,11 +134,12 @@ br{
     width: 50%;
 }
 #section2img{
-    width: 25%;
-    height: 25%;
+    width: 75px;
+    height: 75px;
     object-fit: cover;
 }
 #section2card{
+    height: 100%;
     align-items: center; 
     background: #fff;
     color: #000000;
@@ -222,18 +223,7 @@ font-weight: 700;
     border: none;
 }
 .section4{
-    height: 550px;
-    max-width: 1444px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#section4{
-    display: flex;
-    height: 500px;
-    width: 80%;
-    justify-content: center;
-    align-items: center;
+    width: 75%;
 }
 #section4img{
     width: 35%;
@@ -266,7 +256,7 @@ font-weight: 700;
     width: 100%;
     height: 848px;
     background-image: url(5th\ section/section5.png);
-    background-size: cover;
+    background-size: contain;
   background-position: center;
     background-repeat: no-repeat;
     display: flex;
@@ -620,9 +610,13 @@ button:hover{
 
 
 
-@media (max-width: 1024px) and (min-width: 679px)  {
-    
+@media (max-width: 1024px) and (min-width: 769px)  {
+    html{
+        width: 100%;
+    }
 body{
+            width: 100%;
+
     overflow-x: hidden;
 }
 .container{
@@ -676,8 +670,13 @@ font-size: 40px;
 
 #section4card p{
     font-size: 15px;
-
 }
+
+#section4 div div button{
+    padding: 10px 20px;
+    width: 100%;
+}
+
 .section5{
     height: 500px;
 }
@@ -735,7 +734,7 @@ font-size: 40px;
 
 
 
-
+/* 
 @media (max-width: 768px ) and (min-width: 426px)  {
     html{
         width: 100%;
@@ -892,26 +891,15 @@ font-size: 40px;
 
 
 }
+ */
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 426px) and (min-width: 326px) {
+ 
+@media (max-width: 768px ) and (min-width: 426px)  {
     html{
         width: 100vw;
     }
@@ -919,17 +907,260 @@ body{
     overflow-x: hidden;
 }
 .container{
+    max-width: 768px;
+}
+#navbar{
+    width: 100%;
+}
+#herosection{
+    height: 1000px;
+    flex-direction: column;
+}
+#lefthero {
+    width: 100%;
+    height: 700px;
+}
+.contaxt {
+    width: 100%;
+    height: 80%;
+    margin-top: 100px;
+    gap: 0px;
+}
+
+#lefth1{
+    font-size: 30px;
+}
+.contaxt p{
+    font-size: 12px;
+}
+.contaxt p br{
+    display: none;
+}
+#leftbtn{
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.leftbtn1{
+    padding: 10px 20px;
+}
+.leftbtn2{
+    padding: 10px 20px;
+}
+#righthero{
+    width: 100%;
+}
+.no-wrap-text {
+    white-space: nowrap;
+}
+.section2p p {
+    width: 100%;
+    text-wrap: wrap;    
+}
+
+.section2p p br{
+    display: none;
+}
+#section2{
+    width: 75%;
+}
+
+.section3{
+    flex-direction: column;
+    height: 1000px;
+}
+.leftsection3{
+    width: 100%;
+}
+.rightsection3{
+    width: 100%;
+}
+.contaxtSection3 {
+    gap: 0px;
+}
+#righth1{
+font-size: 40px;
+}
+#rightp{
+    font-size: 15px;
+}
+.rightbtn{
+    padding: 10px 20px;
+}
+.section4{
+    display: flex;
+    flex-direction: column;
+}
+.section5{
+    height: 400px;
+    background-size: contain;
+}
+.contaxtsection5 #fifty{
+    font-size:25px;
+}
+.contaxtsection5 #fifty span{
+    font-size: 30px;
+}
+.contaxtsection5 #download{
+    font-size: 15px;
+}
+
+.contaxtsection5 P br{
+    display: none;
+}
+.contaxtsection5 P{
+    text-wrap: wrap;
+    max-width: 100%;
+    font-size: 10PX;
+}
+.section5btn{
+    height: 40px;
+    display: block;
+    gap: 5px;
+}
+.section5btn button{
+    height: 30px;
+    width: auto;
+}
+
+#section6cardheading{
+    font-size: 40px;
+}
+#section6cardsubheading{
+    font-size: 20px;
+}
+.accordion span{
+    font-size: 18px;
+}
+#leftsection8{
+    padding: 20px;
+    gap: 10px;
+}
+#rightsection8{
+    padding: 20px;
+    gap: 10px;
+}
+#section8b{
+    width: 75%;
+    flex-direction: column;
+    gap: 20px;
+}
+#section8h1{
+    font-size: 30px;
+}
+.section10{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    height: 200px;
+    background: #020e2d;
+}
+#section10{
+    width: 60%;
+    height: 150px;
+    background: #fff;
+    border-radius: 5px;
+}
+#section10row1{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.map p, .telephone p, .email p{
+    color: #020e2d;
+    font-size: 17px;
+    margin: 0;
+}
+
+#section9 h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+#section10{
+    width: 80%;
+}
+.map, .telephone, .email{
+    gap: 5px;
+}
+.map p, .telephone p, .email p{
+    font-size: 15px;
+}
+
+
+
+.section11{
+    height: 700px;
+    display: block;
+    padding: 0 20px;
+}
+.section11a{
+    height: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 20px;
+}
+.section11a:hover{
+    cursor: pointer;
+}
+.section11b{
+    height: 200px;
+    width: 100%;
+}
+
+.section11c{
+    height: 160px;
+    width: 100%;
+}
+
+.section11d{
+    height: 100px;
+    width:100%;}
+.section11e{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    gap: 20px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 426px) and (min-width: 376px) {
+   
+.container{
     max-width: 425px;
 }
 #navbar{
     width: 100%;
 }
 #herosection{
-    flex-direction: column;
+    display: block;
+    height: 800px;
 }
 #lefthero {
     width: 100%;
-    height: 700px;
+    height: 50%;
 }
 .contaxt {
     width: 80%;
@@ -958,6 +1189,7 @@ body{
 }
 #righthero{
     width: 100%;
+    height: 50%;
 }
 .no-wrap-text {
     white-space: nowrap;
@@ -997,11 +1229,12 @@ font-size: 40px;
     padding: 10px 20px;
 }
 .section4{
-    height: 1400px;
     display: block;
 }
 .section5{
-    height: 300px;
+    height: 400px;
+    background-size: cover;
+
 }
 .contaxtsection5 #fifty{
     font-size:25px;
@@ -1037,7 +1270,9 @@ font-size: 40px;
 #section6cardsubheading{
     font-size: 20px;
 }
-
+.accordion span{
+    font-size: 18px;
+}
 #leftsection8{
     padding: 20px;
     gap: 10px;
@@ -1182,10 +1417,10 @@ body{
     margin-bottom: 10px;
 }
 .leftbtn1{
-    padding: 10px 20px;
+    padding: 5px 5px;
 }
 .leftbtn2{
-    padding: 10px 20px;
+    padding: 5px 5px;
 }
 #righthero{
     width: 100%;
@@ -1205,6 +1440,9 @@ body{
     width: 100%;
 }
 
+.section2btn button{
+    padding: 5px 5px;
+}
 .section3{
     flex-direction: column;
     height: 750px;
@@ -1228,11 +1466,11 @@ font-size: 40px;
     padding: 10px 20px;
 }
 .section4{
-    height: 1400px;
     display: block;
 }
+
 .section5{
-    height: 400px;
+    height: 350px;
     background-position: center;
 }
 .contaxtsection5 #fifty{
@@ -1270,6 +1508,12 @@ font-size: 40px;
     font-size: 20px;
 }
 
+.accordion span{
+    font-size: 18px;
+}
+#section8h1{
+    font-size: 30px;
+}
 #leftsection8{
     padding: 20px;
     gap: 10px;
@@ -1284,6 +1528,9 @@ font-size: 40px;
     gap: 20px;
 }
 
+.section8img{
+    height: 100px;
+}
 .section10{
     display: flex;
     flex-direction: column;
@@ -1364,6 +1611,247 @@ font-size: 40px;
     align-items: start;
     gap: 20px;
 }
+}
 
 
+
+
+
+
+
+@media (max-width: 320px){
+
+    html{
+        width: 100vw;
+    }
+body{
+    overflow-x: hidden;
+}
+.container{
+    max-width: 425px;
+}
+#navbar{
+    width: 100%;
+}
+#herosection{
+    flex-direction: column;
+}
+#lefthero {
+    width: 100%;
+    height: 700px;
+}
+.contaxt {
+    width: 80%;
+    margin-top: 100px;
+    gap: 0px;
+}
+
+#lefth1{
+    font-size: 30px;
+}
+.contaxt p{
+    font-size: 12px;
+}
+.contaxt p br{
+    display: none;
+}
+#leftbtn{
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.leftbtn1{
+    padding: 5px 5px;
+}
+.leftbtn2{
+    padding: 5px 5px;
+}
+#righthero{
+    width: 100%;
+}
+.no-wrap-text {
+    white-space: nowrap;
+}
+.section2p p {
+    width: 100%;
+    text-wrap: wrap;    
+}
+
+.section2p p br{
+    display: none;
+}
+#section2{
+    width: 100%;
+}
+
+.section2btn button{
+    padding: 5px 5px;
+}
+.section3{
+    flex-direction: column;
+    height: 750px;
+}
+.leftsection3{
+    width: 100%;
+}
+.rightsection3{
+    width: 100%;
+}
+.contaxtSection3 {
+    gap: 0px;
+}
+#righth1{
+font-size: 40px;
+}
+#rightp{
+    font-size: 15px;
+}
+.rightbtn{
+    padding: 10px 20px;
+}
+.section4{
+    display: block;
+}
+.section5{
+    height: 400px;
+    background-position: center;
+}
+.contaxtsection5 #fifty{
+    font-size:20px;
+}
+.contaxtsection5 #fifty span{
+    font-size: 30px;
+}
+.contaxtsection5 #download{
+    font-size: 15px;
+}
+
+.contaxtsection5 P br{
+    display: none;
+}
+.contaxtsection5 P{
+    text-wrap: wrap;
+    max-width: 100%;
+    font-size: 10PX;
+}
+.section5btn{
+    height: 40px;
+    display: block;
+    gap: 5px;
+}
+.section5btn button{
+    height: 30px;
+    width: auto;
+}
+
+#section6cardheading{
+    font-size: 40px;
+}
+#section6cardsubheading{
+    font-size: 20px;
+}
+
+.accordion span{
+    font-size: 18px;
+}
+#section8h1{
+    font-size: 30px;
+}
+.section8img{
+    height: 100px;
+}
+#leftsection8{
+    padding: 10px;
+    gap: 10px;
+}
+#rightsection8{
+    padding: 10px;
+    gap: 10px;
+}
+#section8b{
+    width: 75%;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section10{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    height: 200px;
+    background: #020e2d;
+}
+#section10{
+    width: 60%;
+    height: 150px;
+    background: #fff;
+    border-radius: 5px;
+}
+#section10row1{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.map p, .telephone p, .email p{
+    color: #020e2d;
+    font-size: 17px;
+    margin: 0;
+}
+
+#section9 h2{
+    font-size: 30px;
+    text-align: center;
+}
+#section9 p{
+    font-size: 18px;
+}
+#section10{
+    width: 80%;
+}
+.map, .telephone, .email{
+    gap: 5px;
+}
+.map p, .telephone p, .email p{
+    font-size: 15px;
+}
+
+.section11{
+    height: 700px;
+    display: block;
+    padding: 0 20px;
+}
+.section11a{
+    height: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 20px;
+}
+.section11a:hover{
+    cursor: pointer;
+}
+.section11b{
+    height: 200px;
+    width: 100%;
+}
+
+.section11c{
+    height: 160px;
+    width: 100%;
+}
+
+.section11d{
+    height: 100px;
+    width:100%;}
+.section11e{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    gap: 20px;
+}
 }
