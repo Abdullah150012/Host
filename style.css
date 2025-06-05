@@ -94,8 +94,8 @@ br{
 }
 #leftp{
     font-size: 18px;
-
     color: #fff;
+    padding-right: 10px;
 }
 #leftbtn{
     width: 100%;
@@ -258,7 +258,7 @@ font-weight: 700;
 }
 .section5{
     width: 100%;
-    height: 848px;
+    height: 45vw;
     background-image: url(5th\ section/section5.png);
     background-size: contain;
   background-position: center;
@@ -277,20 +277,20 @@ font-weight: 700;
     color: #fff;
 }
 .contaxtsection5 #fifty{
-    font-size:60px;
+    font-size:4.167vw;
     font-weight: 700;
 }.contaxtsection5 #fifty span{
-    font-size: 86px;
+    font-size: 5.9722vw;
     font-weight: 700;
 }
 .contaxtsection5 #download{
-    font-size: 50px;
+    font-size: 3.47vw;
     font-weight: bold;
     letter-spacing: 0px;
     word-wrap: none;
 }
 .contaxtsection5 P{
-    font-size: 25px;
+    font-size: 1.73vw;
 }
 .section5btn{
     display: flex;
@@ -299,8 +299,8 @@ font-weight: 700;
     gap: 20px;
 }
 .section5btns{
-    height: 70px;
-    width: 230px;
+    height: 4.861vw;
+    width: 15.972vw;
     margin-top: 10px;
     border-radius: 5px;
     border: none;
@@ -563,7 +563,7 @@ li::before {
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
     padding-left: 20px;
-    font-size: 18px;
+    font-size: 1.25vw;
     color: #020e2d;
     border: none;
 }
@@ -575,7 +575,7 @@ li::before {
     border-bottom-left-radius: 0px;
     background-color: #5793cf;
     color: #fff;
-    font-size: 15px;
+    font-size: 1.042vw;
     font-weight: 700;
     border: none;
 }
@@ -671,7 +671,6 @@ font-size: 40px;
 .rightbtn{
     padding: 10px 20px;
 }
-
 #section4card p{
     font-size: 15px;
 }
@@ -684,26 +683,26 @@ font-size: 40px;
     width: 100%;
 }
 .section5{
-    height: 500px;
+    height: 45vw;
 }
 .contaxtsection5 #fifty{
-    font-size:40px;
+    font-size:3.906vw;
 }
 .contaxtsection5 #fifty span{
-    font-size: 50px;
+    font-size: 4.883vw;
 }
 .contaxtsection5 #download{
-    font-size: 36px;
+    font-size: 3.516vw;
 }
 .contaxtsection5 P{
-    font-size: 18px;
+    font-size: 1.758vw;
     text-wrap: wrap;
 }
 .section5btn{
     gap: 10px;
 }
 .section5btns{
-    height: 40px;
+    height: 3.906vw;
     width: auto;
 }
 #section6cardheading{
@@ -724,10 +723,10 @@ font-size: 40px;
 }
 
 #input input{
-    font-size: 15px;
+    font-size: 1.25vw;
 }
 #input button{
-    font-size: 15px;
+    font-size: 1.25vw;
     font-weight: 500;
 }
 
@@ -739,169 +738,6 @@ font-size: 40px;
 
 
 
-
-
-
-
-
-/* 
-@media (max-width: 768px ) and (min-width: 426px)  {
-    html{
-        width: 100%;
-    }
-    
-body{
-    overflow-x: hidden;
-}
-.container{
-    max-width: 768px;
-}
-#navbar{
-    width: 100%;
-}
-#herosection{
-    height: 500px;
-}
-.contaxt {
-    max-width: 300px;
-    justify-content: center;
-    align-items: center;    
-    gap: 0px;
-}
-#lefth1{
-    font-size: 35px;
-}
-.contaxt p{
-    font-size: 15px;
-}
-.contaxt p br{
-    display: none;
-}
-#leftbtn{
-    gap: 10px;
-}
-.leftbtn1{
-    padding: 10px 20px;
-}
-.leftbtn2{
-    padding: 10px 20px;
-}
-.no-wrap-text {
-    white-space: nowrap;
-}
-.section2p p {
-    width: 100%;
-}
-
-#section2{
-    width: 100%;
-}
-
-.section3{
-    height: 400px;
-}
-.contaxtSection3 {
-    gap: 0px;
-}
-#righth1{
-font-size: 40px;
-}
-#rightp{
-    font-size: 15px;
-}
-.rightbtn{
-    padding: 10px 20px;
-}
-#section4{
-    width: 100%;
-    margin: 0px !important;
-}
-#section4 div div button{
-    padding: 10px 20px;
-    width: 100%;
-}
-.section5{
-    height: 400px;
-}
-.contaxtsection5 #fifty{
-    font-size:30px;
-}
-.contaxtsection5 #fifty span{
-    font-size: 40px;
-}
-.contaxtsection5 #download{
-    font-size: 25px;
-}
-.contaxtsection5 P{
-    font-size: 14PX;
-}
-.section5btns{
-    height: 40px;
-}
-
-#section6cardheading{
-    font-size: 40px;
-}
-#section6cardsubheading{
-    font-size: 20px;
-}
-#leftsection8{
-    padding: 20px;
-    gap: 10px;
-}
-#rightsection8{
-    padding: 20px;
-    gap: 10px;
-}
-#section9 h2{
-    text-align: center;
-}
-
-#section10{
-    width: 80%;
-}
-.map, .telephone, .email{
-    gap: 5px;
-}
-.map p, .telephone p, .email p{
-    font-size: 15px;
-}
-
-.section11{
-    flex-wrap: wrap;
-    padding: 0 10px;
-}
-.section11a{
-    gap: 10px;
-}
-.section11a:hover{
-    cursor: pointer;
-}
-.section11b{
-    height: 100%;
-}
-
-.section11c{
-    height: 100%;
-}
-
-#input input{
-    font-size: 10px;
-}
-#input button{
-    font-size: 10px;
-}
-.section11 div h5{
-    font-size: 18px;
-}
-
-.section11 div ul li{
-    font-size: 15px;
-}
-
-
-}
- */
 
 
 
@@ -1005,17 +841,17 @@ font-size: 40px;
     width: 100%;
 }
 .section5{
-    height: 400px;
+    height: 45vw;
     background-size: contain;
 }
 .contaxtsection5 #fifty{
-    font-size:25px;
+    font-size:3.557vw;
 }
 .contaxtsection5 #fifty span{
-    font-size: 30px;
+    font-size: 5.208vw;
 }
 .contaxtsection5 #download{
-    font-size: 15px;
+    font-size: 3.255vw;
 }
 
 .contaxtsection5 P br{
@@ -1024,7 +860,7 @@ font-size: 40px;
 .contaxtsection5 P{
     text-wrap: wrap;
     max-width: 100%;
-    font-size: 10px;
+    font-size: 1.953vw;
 }
 .section5btn{
     height: 40px;
@@ -1104,6 +940,13 @@ font-size: 40px;
 }
 
 
+#input input{
+    font-size: 3.25vw;
+}
+#input button{
+    font-size: 3.25vw;
+    font-weight: 500;
+}
 
 .section11{
     height: 700px;
@@ -1247,18 +1090,19 @@ font-size: 40px;
     width: 100%;
 }
 .section5{
-    height: 200px;
+    height: 45vw;
     background-size: contain;
 
 }
 .contaxtsection5 #fifty{
-    font-size:25px;
+        margin-top: 5vw;
+    font-size: 3.529vw;
 }
 .contaxtsection5 #fifty span{
-    font-size: 30px;
+    font-size: 4.706vw;
 }
 .contaxtsection5 #download{
-    font-size: 15px;
+    font-size: 3.529vw;
 }
 
 .contaxtsection5 P br{
@@ -1267,15 +1111,20 @@ font-size: 40px;
 .contaxtsection5 P{
     text-wrap: wrap;
     max-width: 100%;
-    font-size: 10px;
+    font-size: 2.353vw;
 }
 .section5btn{
-    height: 40px;
-    display: block;
+    height: 5.882vw;
     gap: 5px;
 }
 .section5btn button{
-    height: 30px;
+    height: 5.882vw;
+    width: auto;
+    margin-top: 0px;
+    display: flex;
+}
+.section5btns img{
+    height: 100%;
     width: auto;
 }
 
@@ -1346,6 +1195,13 @@ font-size: 40px;
     font-size: 15px;
 }
 
+#input input{
+    font-size: 4.25vw;
+}
+#input button{
+    font-size: 4.25vw;
+    font-weight: 500;
+}
 
 
 .section11{
@@ -1484,19 +1340,23 @@ font-size: 40px;
     display: block;
     width: 100%;
 }
-
+#gap4{
+    display: none;
+}
 .section5{
-    height: 350px;
-    background-position: center;
+    height: 45vw;
+    background-size: contain;
+
 }
 .contaxtsection5 #fifty{
-    font-size:20px;
+    margin-top: 5vw;
+    font-size: 3.529vw;
 }
 .contaxtsection5 #fifty span{
-    font-size: 30px;
+    font-size: 4.706vw;
 }
 .contaxtsection5 #download{
-    font-size: 15px;
+    font-size: 3.529vw;
 }
 
 .contaxtsection5 P br{
@@ -1505,17 +1365,23 @@ font-size: 40px;
 .contaxtsection5 P{
     text-wrap: wrap;
     max-width: 100%;
-    font-size: 10px;
+    font-size: 2.353vw;
 }
 .section5btn{
-    height: 40px;
-    display: block;
+    height: 5.882vw;
     gap: 5px;
 }
 .section5btn button{
-    height: 30px;
+    height: 5.882vw;
+    width: auto;
+    margin-top: 0px;
+    display: flex;
+}
+.section5btns img{
+    height: 100%;
     width: auto;
 }
+
 
 #section6cardheading{
     font-size: 40px;
@@ -1588,6 +1454,13 @@ font-size: 40px;
     font-size: 15px;
 }
 
+#input input{
+    font-size: 4.25vw;
+}
+#input button{
+    font-size: 4.25vw;
+    font-weight: 500;
+}
 
 
 .section11{
@@ -1728,18 +1601,23 @@ font-size: 40px;
     display: block;
     width: 100%;
 }
+#gap4{
+    display: none;
+}
 .section5{
-    height: 400px;
-    background-position: center;
+    height: 45vw;
+    background-size: contain;
+
 }
 .contaxtsection5 #fifty{
-    font-size:20px;
+    margin-top: 5vw;
+    font-size: 3.529vw;
 }
 .contaxtsection5 #fifty span{
-    font-size: 30px;
+    font-size: 4.706vw;
 }
 .contaxtsection5 #download{
-    font-size: 15px;
+    font-size: 3.529vw;
 }
 
 .contaxtsection5 P br{
@@ -1748,17 +1626,23 @@ font-size: 40px;
 .contaxtsection5 P{
     text-wrap: wrap;
     max-width: 100%;
-    font-size: 10px;
+    font-size: 2.353vw;
 }
 .section5btn{
-    height: 40px;
-    display: block;
+    height: 5.882vw;
     gap: 5px;
 }
 .section5btn button{
-    height: 30px;
+    height: 5.882vw;
+    width: auto;
+    margin-top: 0px;
+    display: flex;
+}
+.section5btns img{
+    height: 100%;
     width: auto;
 }
+
 
 #section6cardheading{
     font-size: 40px;
@@ -1834,6 +1718,13 @@ font-size: 40px;
     font-size: 15px;
 }
 
+#input input{
+    font-size: 5.25vw;
+}
+#input button{
+    font-size: 5.25vw;
+    font-weight: 500;
+}
 .section11{
     height: 700px;
     display: block;
